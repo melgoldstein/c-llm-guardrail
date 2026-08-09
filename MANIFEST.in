@@ -1,0 +1,4 @@
+include Makefile
+recursive-include src *.c
+recursive-include include *.h
+recursive-include benchmarks *.py *.json
