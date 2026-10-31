@@ -1,5 +1,7 @@
 # c-llm-guardrail
 
+[Portfolio: melgoldstein.com](https://melgoldstein.com/)
+
 Bounded-memory C99 checks for LLM output streams, with a Python `ctypes` interface.
 Detect secret-like tokens, known injection signatures and JSON bracket mismatches
 without buffering the complete response. MIT licensed; Python 3.11+.
@@ -9,7 +11,7 @@ without buffering the complete response. MIT licensed; Python 3.11+.
 Requires Python and a C99 compiler, with a virtual environment active:
 
 ```bash
-git clone https://github.com/cankaan120/c-llm-guardrail.git
+git clone https://github.com/melgoldstein/c-llm-guardrail.git
 cd c-llm-guardrail
 python -m pip install -e '.[dev]'
 guardrail build --cc gcc

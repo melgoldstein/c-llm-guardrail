@@ -18,8 +18,8 @@ dev = ["pytest>=8,<10", "ruff>=0.11,<1", "build>=1,<2"]
 guardrail = "guardrail_py.cli:main"
 
 [project.urls]
-Repository = "https://github.com/cankaan120/c-llm-guardrail"
-Issues = "https://github.com/cankaan120/c-llm-guardrail/issues"
+Repository = "https://github.com/melgoldstein/c-llm-guardrail"
+Issues = "https://github.com/melgoldstein/c-llm-guardrail/issues"
 
 [tool.setuptools]
 packages = ["guardrail_py", "guardrail_py.native"]
